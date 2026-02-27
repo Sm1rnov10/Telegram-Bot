@@ -21,3 +21,25 @@
 - **Python 3.13** с библиотекой `pyTelegramBotAPI`
 - **Криптостойкая генерация** — модуль `secrets`
 - **Безопасность** — экранирование HTML, защита от XSS
+
+## 🚀 Быстрый старт
+
+```bash
+# Клонировать репозиторий
+git clone https://github.com/Sm1rnov10/Telegram-Bot.git
+cd password-bot
+
+# Создать виртуальное окружение (рекомендуется)
+python -m venv venv
+# Активировать:
+# Windows: venv\Scripts\activate
+# Linux/Mac: source venv/bin/activate
+
+# Установить зависимости
+pip install -r requirements.txt
+
+# Создать файл .env с токеном
+echo "BOT_TOKEN=ваш_токен_здесь" > .env
+
+# Запустить бота
+python main.py
